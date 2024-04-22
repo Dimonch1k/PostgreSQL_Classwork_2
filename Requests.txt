@@ -1,0 +1,110 @@
+
+-- Resquest 1
+
+-- SELECT *
+-- FROM wards
+-- WHERE wards.places > 10;
+
+
+
+-- Resquest 2
+
+-- SELECT ds.building AS building, COUNT(w.id)
+-- FROM wards AS w
+-- JOIN departments AS ds
+-- ON w.department_id = ds.id
+-- GROUP BY building;
+
+
+
+-- Resquest 3
+
+-- SELECT ds.name AS department, SUM(w.places) AS places
+-- FROM wards AS w
+-- JOIN departments AS ds
+-- ON w.department_id = ds.id
+-- GROUP BY department;
+
+
+
+-- Resquest 4
+
+-- SELECT des.name AS department, SUM(dos.premium) as sum_premium
+-- FROM departments AS des
+-- JOIN wards as w
+-- ON w.department_id = des.id
+-- JOIN doctors_examinations as de
+-- ON de.ward_id = w.id
+-- JOIN doctors as dos
+-- ON de.doctor_id = dos.id
+-- GROUP BY department;
+
+
+-- Resquest 5
+
+
+
+
+-- Resquest 6
+
+
+
+
+-- Resquest 7
+
+
+
+
+-- Resquest 8
+
+
+
+
+-- Resquest 9
+
+
+
+
+-- Resquest 10
+
+
+
+
+-- Resquest 11
+
+
+
+
+-- Resquest 12
+
+
+
+
+-- Resquest 13
+
+
+
+
+-- Resquest 14
+
+
+
+
+-- Resquest 15
+
+
+
+
+-- Resquest 16
+
+
+
+-- Resquest 17
+
+
+
+-- Resquest 18
+
+
+
+
